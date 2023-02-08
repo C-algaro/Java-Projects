@@ -1,6 +1,6 @@
 <h1> Desafio: Programação Orientada a Objetos</h1>
 
-<p align="center"> 📜 <a href="https://academiapme-my.sharepoint.com/:p:/g/personal/camila_cavalcante_dio_me/EaXyYOjBaFpZjkxhexMo5EcBKMEEAI5t5aHlsTjnBQJlUw?e=nxdB6C"> SLIDES APRESENTADO NA AULA DO PROJETO </a> 📜 </P>
+<p align="center"> 📜 <a href="https://academiapme-my.sharepoint.com/:p:/g/personal/camila_cavalcante_dio_me/EaXyYOjBaFpZjkxhexMo5EcBKMEEAI5t5aHlsTjnBQJlUw?e=nxdB6C"> SLIDES APRESENTADOS NA AULA DO PROJETO </a> 📜 </P>
 <p> Sejam bem-vindos ao projeto desafio: <strong>O PARADIGMA DE ORIENTAÇÃO A OBJETOS.</strong><br>Desafio este que tive a honra de co-criar com a plataforma de cursos online <strong><a href="https://web.digitalinnovation.one/">DIGITAL INNOVATION ONE</a></strong> 💛🧡<br>
     💎 O objetivo principal é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto Java. </p>
 
@@ -133,18 +133,6 @@ Vejamos alguns Subparadigmas do Paradigma Declarativo e exemplos linguagens de p
 🔹 2.1 Paradigma Funcional: Lisp e Haskell<br>
 🔹 2.2 Paradigma Lógico: Prolog<br>
 </p>
-
-<h2> 🤝 Contribuindo </h2>
-
-<p>
-Este repositório foi criado para fins de estudo, então contribua com ele.<br>
-Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.<br>
-<br>
-Se possível:<br>
-⭐️  Star o projeto<br>
-🐛 Encontrar e relatar issues<br>
-</p>
-
 
 
 ------------
