@@ -16,6 +16,10 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
 
+        //Por "Conteúdo" ser abstrato eu não posso instanciar ele, mas eu posso criar um novo curso a partir de uma classe abstrata (polimorfismo)
+        //Conteudo conteudo = new Curso();
+        //Conteudo conteudo = new Mentoria();
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria java");
         mentoria.setDescricao("descricao mentoria java");
