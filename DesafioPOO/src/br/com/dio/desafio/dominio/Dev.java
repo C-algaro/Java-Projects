@@ -1,6 +1,7 @@
 package br.com.dio.desafio.dominio;
 
 import java.util.LinkedHashSet;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -11,14 +12,33 @@ public class Dev {
     private Set<Conteudo> conteudoInscritos = new LinkedHashSet<>();
     private Set<Conteudo> conteudoConcluidos = new LinkedHashSet<>();
 
-    //Quando chama o método, se increve 
-    public void increverBootcamp(Bootcamp bootcamp) {}
+    //Quando chama o método de inscrição, adiciona todos os conteúdos do bootcamp na varivavel conteudoInscritos
+    public void inscreverBootcamp(Bootcamp bootcamp) {
+        this.conteudoInscritos.addAll(bootcamp.getConteudos());
+        //Adiciona esse Dev no campo de Dev Inscritos do BootCamp
+        bootcamp.getDevsInscritos().add(this);
+    }
 
-    //A medida que progrede
-    public void progredir() {}
+    //A medida que progrede, pega o conteudo inscritos e coloca nos conteudos concluidos
+    //Optional resolve retorno nulos
+    public void progredir() {
+        Optional<Conteudo> conteudo = this.conteudoInscritos.stream().findFirst();
+        if(conteudo.isPresent()) {
+            this.conteudoConcluidos.add(conteudo.get());
+            this.conteudoInscritos.remove(conteudo.get());
+        }
+        else {
+            System.out.println("Você não está matriculado em nenhum conteúdo");
+        }
+    }
 
     //Quero saber quanto de XP o Dev conseguiu
-    public void calcularTotalXP() {}
+    public double calcularTotalXP() {
+        return this.conteudoConcluidos
+            .stream()
+            .mapToDouble(conteudo -> conteudo.calcularXp())
+            .sum();
+    }
 
 
     //Getters and Setters
