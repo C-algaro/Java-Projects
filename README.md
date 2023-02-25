@@ -1,5 +1,9 @@
 <h1>Introdução dos Projetos 🪐</h1>
-<p>Breve descrição dos projetos desenvolvidos durante o <strong>BootCamp</strong> online da Digital Innovation One. Intensivão de Java Básico ao Intermediário com diferentes tutores e atividades para exercitar e reforçar a programação a partir do controle de fluxo e dos paradigmas da orientação a objetos.</p>
+<p>Cada pasta dentro desse ambiente apresenta um projeto que implementa conceitos diferentes da programação. Por se tratar de Back-End, o resultado não é tão agradável aos olhos quanto projetos Front-End, mas esses elementos adicionados a outros sistemas tem muito a agregar.
+
+</br>
+
+Breve descrição dos projetos desenvolvidos durante o <strong>BootCamp</strong> online da Digital Innovation One. Intensivão de Java Básico ao Intermediário com diferentes tutores e atividades para exercitar e reforçar a programação a partir do controle de fluxo e dos paradigmas da orientação a objetos.</p>
 
 <!-- 
 
